@@ -1,0 +1,124 @@
+.height-100 {
+  height: 100vh;
+}
+
+.hero-banner {
+  background-image: url(./assets/images/hero_banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-banner-overlay {
+  height: 100vh;
+  background-color: #8ee3e3;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
+
+.text-color-yellow {
+  color: #f5f5dc;
+}
+
+.background-yellow {
+  background-color: #f5f5dc;
+}
+
+.text-color-white {
+  color: white;
+}
+
+.background-white {
+  background-color: white;
+}
+
+.background-blue {
+  background-color: #8ee3e3;
+}
+
+.jost-font {
+  font-family: "Jost", sans-serif;
+}
+
+.h1-bold {
+  font-size: 48.83px;
+  font-weight: 700;
+}
+
+.h2-medium {
+  font-size: 31.25px;
+  font-weight: 500;
+}
+
+.h3-bold {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.h3-medium {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.h3-regular {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.p-custom {
+  font-family: "Questrial", sans-serif;
+  font-size: 16;
+}
+
+.primary-btn-custom {
+  background-color: rgba(245, 245, 220, 0.5);
+  border: solid 3px white;
+  color: white;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.secondary-btn-custom {
+  background-color: transparent;
+  border: solid 3px white;
+  color: white;
+}
+
+.nav-bar-item-custom {
+  color: white;
+  text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+}
+
+.nav-bar-container-basis {
+  height: 30vh;
+}
+
+.grid-background {
+  background-color: black;
+}
+
+.grid-container-custom {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 3px;
+}
+
+.span-3-grid {
+  grid-column: span 3;
+}
+
+.span-2-grid {
+  grid-column: span 2;
+}
+
+.website-img {
+  height: auto;
+  max-width: 75%;
+  border: solid 3px white;
+}
+
+b {
+  display: inline-block;
+  width: 175px;
+}
